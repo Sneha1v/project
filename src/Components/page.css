@@ -194,9 +194,9 @@
   color: white;
 }
 .dashboard-section-wrapper {
-  border: 4px solid black; /* Black border around the entire section */
-  padding: 30px;  /* Add padding around the section to create space inside */
-  margin: 20px 0; /* Optional: margin for space between sections */
+  border: 4px solid black; 
+  padding: 30px; 
+  margin: 20px 0;
 }
 
 .dashboard-section {
@@ -204,12 +204,12 @@
   text-align: center;
 }
 
-/* Flexbox Layout for Status and Actions */
+
 .status-actions {
   display: flex;
   align-items: center;
-  justify-content: space-between; /* This makes sure space is evenly distributed */
-  gap: 20px; /* Space between status and actions */
+  justify-content: space-between; 
+  gap: 20px; 
 }
 
 .dashboard-title {
@@ -235,7 +235,7 @@
   text-decoration: underline;
 }
 
-/* Status Info Section */
+
 .status-info {
   margin-top: 20px;
 }
@@ -259,7 +259,7 @@
   text-align: left;
 }
 
-/* Mock Diagram/Chart Styling */
+
 .dashboard-diagram {
   margin-top: 20px;
   height: 300px;
@@ -279,7 +279,7 @@
   background-color: #f9f9f9;
   text-align: center;
   padding: 40px 20px;
-  border-top: 2px solid #ccc; /* Optional border to separate sections */
+  border-top: 2px solid #ccc; /
 }
 
 .join-text {
@@ -294,7 +294,7 @@
 
 
 
-/* Styling for the companies section */
+
 .companies-section {
   background-color: #f9f9f9;
   padding: 20px 0;
@@ -302,106 +302,102 @@
 }
 
 .companies-text ul {
-  display: flex;  /* Use flexbox for spacing the list items */
-  justify-content: space-between;  /* Evenly spaces the items */
-  list-style-type: none;  /* Removes default list bullets */
+  display: flex;  
+  justify-content: space-between; 
+  list-style-type: none;  
   padding: 0;
   margin: 0;
 }
 
 .companies-text li {
-  flex: 1;  /* Makes each list item take equal space */
-  text-align: center;  /* Centers each company name */
+  flex: 1; 
+  text-align: center;  
   font-size: 28px;
-  /* font-weight: normal; */
+ 
   font-weight: bolder;
   color: #333;
 }
-/* General styles for the feature items */
+
 .feature-items {
-  display: flex;                          /* Aligns the feature items horizontally */
-  justify-content: space-between;         /* Distributes the items evenly */
-  margin: 40px 0;                         /* Adds space above and below the section */
+  display: flex;                         
+  justify-content: space-between;         
+  margin: 40px 0;                         
 }
 
 .feature-item {
-  background-color: #f9f9f9;             /* Light background for each item */
-  padding: 20px;                          /* Adds space inside the items */
-  border-radius: 8px;                     /* Rounded corners */
-  width: 30%;                             /* Each item takes up 30% of the container width */
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
-  transition: transform 0.3s ease, background-color 0.3s ease; /* Smooth transition */
-  text-align: center;                     /* Centers the text */
+  background-color: #f9f9f9;             
+  padding: 20px;                        
+  border-radius: 8px;                    
+  width: 30%;                            
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+  transition: transform 0.3s ease, background-color 0.3s ease; 
+  text-align: center;                    
 }
 
 .feature-item:hover {
-  transform: translateY(-5px);            /* Lifts the item slightly when hovered */
-  background-color: #e7e7e7;              /* Slightly darker background on hover */
+  transform: translateY(-5px);            
+  background-color: #e7e7e7;              
 }
 
-/* Styling for the sublines */
+
 .team-size, .customer-service, .measures-what-matters {
-  font-size: 14px;                        /* Smaller font size for the sublines */
-  color: #555;                            /* Lighter text color */
-  margin-top: 10px;                       /* Adds space between the main text and subline */
-  line-height: 1.5;                       /* Adds spacing between lines for better readability */
+  font-size: 14px;                        
+  color: #555;                          
+  margin-top: 10px;                       
+  line-height: 1.5;                       
 }
 
-/* Styles for the "Connect with customers" container */
+
 .connect-customers-container {
-  display: flex;                          /* Displays the blocks in a row */
-  justify-content: space-between;         /* Distributes the items evenly */
-  align-items: flex-start;                /* Aligns items to the top */
-  margin-top: 40px;                       /* Adds space above the section */
-  gap: 20px;                              /* Adds space between each block */
+  display: flex;                          
+  justify-content: space-between;         
+  align-items: flex-start;               
+  margin-top: 40px;                      
+  gap: 20px;                              
 }
 
-/* Styles for each "Connect with customers" block */
 .connect-customers {
-  background-color: #f0f0f0;              /* Light background */
-  padding: 20px;                          /* Adds space inside the blocks */
-  width: 30%;                             /* Each block takes up 30% of the container width */
-  text-align: center;                     /* Centers the text horizontally */
-  border-radius: 8px;                     /* Rounded corners */
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
-  font-weight: bold;                      /* Bold text for emphasis */
-  transition: transform 0.3s ease, background-color 0.3s ease; /* Smooth transition */
+  background-color: #f0f0f0;            
+  padding: 20px;                         
+  width: 30%;                            
+  text-align: center;                    
+  border-radius: 8px;                     
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+  font-weight: bold;                    
+  transition: transform 0.3s ease, background-color 0.3s ease; 
 }
 
 .connect-customers:hover {
-  background-color: #e0e0e0;             /* Darker background on hover */
-  transform: translateY(-5px);            /* Slight lift effect on hover */
-}
+  background-color: #e0e0e0;             
+  transform: translateY(-5px);            
 
-/* Styling for sublines in "Connect with customers" blocks */
 .subline {
-  font-size: 14px;                        /* Smaller font size for the subline text */
-  color: #777;                            /* Lighter color for subline */
-  margin-top: 10px;                       /* Adds space between the main text and subline */
+  font-size: 14px;                        
+  color: #777;                           
+  margin-top: 10px;                       
                   
-  line-height: 1.5;                       /* Line height for better readability */
+  line-height: 1.5;                      
 }
 
-/* Responsive Styles for smaller screens */
 @media (max-width: 768px) {
   .feature-items {
-    flex-direction: column;               /* Stacks feature items vertically on smaller screens */
-    align-items: center;                  /* Centers feature items */
+    flex-direction: column;              
+    align-items: center;                  
   }
 
   .feature-item {
-    width: 80%;                            /* Items take up more space on small screens */
-    margin-bottom: 20px;                   /* Adds space between feature items */
+    width: 80%;                           
+    margin-bottom: 20px;                  
   }
 
   .connect-customers-container {
-    flex-direction: column;               /* Stacks the connect-customers blocks vertically */
-    align-items: center;                  /* Centers the blocks */
+    flex-direction: column;             
+    align-items: center;                  
   }
 
   .connect-customers {
-    width: 80%;                            /* Blocks take up more space on small screens */
-    margin-bottom: 20px;                   /* Adds space between blocks */
+    width: 80%;                          
+    margin-bottom: 20px;                   
   }
 }
 
@@ -420,8 +416,8 @@
 
 
 .synopsis-container {
-  text-align: center; /* Center-aligns all content inside the container */
-  margin-top: 40px; /* Adds space from the content above */
+  text-align: center; 
+  margin-top: 40px; 
 }
 
 .synopsis {
