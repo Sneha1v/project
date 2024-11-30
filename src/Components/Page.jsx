@@ -1,5 +1,3 @@
-
-
 import React from 'react';
 import './page.css';
 
@@ -38,10 +36,6 @@ const Page = () => {
         </div>
       </section>
 
-    
-    
-
-
  <section className="dashboard-section-wrapper">
         <section className="dashboard-section">
           <div className="status-actions">
@@ -69,21 +63,11 @@ const Page = () => {
       </section>
 
 
-
-
-
-
-   
       <section className="join-section">
         <div className="join-text">
           Join 4,000+ companies already growing
         </div>
       </section>
-
-
-
-
-
 
 
       <section className="companies-section">
@@ -143,8 +127,6 @@ const Page = () => {
 </div>
 
 
-
-
 <div className="synopsis-container">
   <div className="synopsis">Sisyphus</div>
   <div className="description">
@@ -159,15 +141,6 @@ const Page = () => {
   <div className="author-name">Candice Wu</div>
   <div className="author-title">Product Manager, Sisyphus</div>
 </div>
-
-
-
-
-
-
-
-
-
 
 
 
@@ -199,12 +172,6 @@ const Page = () => {
   </div>
 </section>
 
-
-
-
-
-
-
 <section className="faq-section">
   <div className="faq-title">Frequently Asked Questions</div>
   <div className="faq-description">
@@ -234,8 +201,6 @@ const Page = () => {
   </div>
   <button className="contact-button">Get in touch</button>
 </section>
-
-
 
 
 <section className="blog-section">
